@@ -179,6 +179,8 @@ return [
         Backpack\Base\BaseServiceProvider::class,
         Backpack\CRUD\CrudServiceProvider::class,
         Backpack\LangFileManager\LangFileManagerServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class, 
+        Backpack\PageManager\PageManagerServiceProvider::class,
 
     ],
 
